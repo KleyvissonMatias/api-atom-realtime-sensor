@@ -1,0 +1,24 @@
+# Configurações de aplicação
+spring:
+  on-profiles: local
+  application:
+    name: api-atom-realtime-sensor
+
+# Configurações do servidor
+server:
+  port: 8080
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
+    operationsSorter: method
+
+---
+# Configurações do banco de dados (se aplicável)
+spring:
+  on-profiles: local
+  datasource:
+    url: jdbc:mysql://localhost:3306/ministeriodb?useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: R00Tr00t2020
