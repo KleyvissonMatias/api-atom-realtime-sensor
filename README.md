@@ -1,4 +1,4 @@
-# api-atom-realtime-sensor Atômico (Atom) - Processamento de Dados em Tempo Real
+# api-atom-realtime-sensor Atômico (Atom) - Processamento de Dados em Tempo Real do Sensor IoT ESP8266 
 
 O Componente Atômico é responsável por receber os dados processados pelo Orquestrador (Orch) e salvá-los em tempo real em uma base de dados Cassandra. Utilizando a arquitetura hexagonal, este componente oferece escalabilidade, confiabilidade e eficiência no armazenamento dos dados provenientes dos sensores IoT.
 
