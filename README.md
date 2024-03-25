@@ -1,6 +1,6 @@
-# Componente Atômico - Processamento de Dados em Tempo Real
+# api-atom-realtime-sensor Atômico (Atom) - Processamento de Dados em Tempo Real
 
-O Componente Atômico api-atom-realtime-sensor é responsável por receber os dados processados pelo Orquestrador (Orch) e salvá-los em tempo real em uma base de dados Cassandra. Utilizando a arquitetura hexagonal, este componente oferece escalabilidade, confiabilidade e eficiência no armazenamento dos dados provenientes dos sensores IoT.
+O Componente Atômico é responsável por receber os dados processados pelo Orquestrador (Orch) e salvá-los em tempo real em uma base de dados Cassandra. Utilizando a arquitetura hexagonal, este componente oferece escalabilidade, confiabilidade e eficiência no armazenamento dos dados provenientes dos sensores IoT.
 
 ## Pré-requisitos
 
