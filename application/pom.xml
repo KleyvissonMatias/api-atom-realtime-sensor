@@ -19,6 +19,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.jdbi</groupId>
+            <artifactId>jdbi</artifactId>
+            <version>2.78</version>
+        </dependency>
+        <dependency>
             <groupId>br.com.atomic.realtime.sensor</groupId>
             <artifactId>api-atom-realtime-sensor-common</artifactId>
             <version>1.0-SNAPSHOT</version>
@@ -27,6 +32,11 @@
             <groupId>br.com.atomic.realtime.sensor</groupId>
             <artifactId>api-atom-realtime-sensor-domain</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
         </dependency>
     </dependencies>
 
